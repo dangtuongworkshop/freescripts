@@ -18,7 +18,7 @@ Script này giúp tự động cài đặt và cấu hình Supabase (phiên bả
 
 ```bash
 #!/bin/bash
-curl -fsSL https://github.com/dangtuongworkshop/freescripts/blob/main/install-supabase.sh -o /tmp/install-supabase.sh
+curl -fsSL https://raw.githubusercontent.com/dangtuongworkshop/freescripts/main/install-supabase.sh -o /tmp/install-supabase.sh
 chmod +x /tmp/install-supabase.sh
 /tmp/install-supabase.sh > /var/log/supabase-install.log 2>&1
 ```
@@ -44,9 +44,9 @@ ssh ubuntu@YOUR_VPS_IP
 
 2. Tải script:
 ```bash
-wget https://raw.githubusercontent.com/YOUR_REPO/install-supabase.sh
+wget https://raw.githubusercontent.com/dangtuongworkshop/freescripts/main/install-supabase.sh
 # Hoặc
-curl -O https://raw.githubusercontent.com/YOUR_REPO/install-supabase.sh
+curl -O https://raw.githubusercontent.com/dangtuongworkshop/freescripts/main/install-supabase.sh
 ```
 
 3. Phân quyền và chạy:
